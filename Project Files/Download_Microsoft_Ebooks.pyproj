@@ -4,8 +4,8 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{a830cfbb-c190-495c-86b4-3892fa9556d7}</ProjectGuid>
-    <ProjectHome />
-    <StartupFile>bin\download files.py</StartupFile>
+    <ProjectHome>..\bin\</ProjectHome>
+    <StartupFile>download files.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,10 +21,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bin\download files.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin" />
+    <Compile Include="download files.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
